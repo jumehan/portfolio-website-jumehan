@@ -6,29 +6,6 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
-const modalViews = document.querySelectorAll('.services__modal'),
-      modalBtns = document.querySelectorAll('.services__button'),
-      modalClose = document.querySelectorAll('.services__modal-close')
-
-let modal = function(modalClick){
-  	modalViews[modalClick].classList.add('active-modal')
-}
-
-modalBtns.forEach((mb, i) =>{
-	mb.addEventListener('click', () =>{
-		modal(i)
-	})
-})
-
-modalClose.forEach((mc) =>{
-	mc.addEventListener('click', () =>{
-		modalViews.forEach((mv) =>{
-			mv.classList.remove('active-modal')
-		})
-	})
-})
-
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 let mixerPortfolio = mixitup('.work__container', {
     selectors: {
@@ -39,7 +16,7 @@ let mixerPortfolio = mixitup('.work__container', {
     }
 });
 
-/* Link active work */ 
+/* Link active work */
 const linkWork = document.querySelectorAll('.work__item')
 
 function activeWork(){
@@ -89,7 +66,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*=============== LIGHT DARK THEME ===============*/ 
+/*=============== LIGHT DARK THEME ===============*/
 const themeButton = document.getElementById('theme-button')
 const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
