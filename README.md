@@ -1,12 +1,11 @@
-# 🔥 Portfolio website - Julie M Han
-##
-### 🔥 Responsive Portfolio Website
+#   💼 Portfolio website - Julie M Han
+
+###  💼 Responsive Portfolio Website
 
 - Responsive Portfolio Website Using HTML CSS & JavaScript
-- Smooth scrolling in each section.
-- Includes a dark and light mode.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Dark and light mode, smooth scrolling and mobile first experience
+- Self-portrait drawn with Procreate
 
+##
 
-![preview img](/preview.png)
+![preview img](/previewportfolio.png)
