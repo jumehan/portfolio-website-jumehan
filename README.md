@@ -11,3 +11,9 @@
 ##
 
 ![preview img](/previewportfolio.png)
+
+----------------------------------------------------------------
+
+### lighthouse performance metrics
+
+![lighthouse results](/lighthouse221026.png)
